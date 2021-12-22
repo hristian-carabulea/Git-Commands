@@ -22,12 +22,12 @@ git diff filename # see the difference between the file in the Working Area and 
 
 git checkout filename # roll back to the previous version of the file; overwrites the working area file with the local Repository file version
 
-### After creating a remote repository on GitHub or somewhere else,
-#### - one firstly adds the remote repository
+### After creating a remote repository on GitHub or somewhere else, one firstly adds the remote repository.
 git remote add origin xxx # where xxx is the name of the remote repository 
 
-### And then one pushes the local repository to the remote repository
+### And then one pushes the local repository to the remote repository.
 git push -u origin master # push repository to the master branch
+
 ### OR firstly create a branch, and then push the local repository to that branch
 git branch -M main        # create branch firstly
 
