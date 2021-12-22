@@ -28,4 +28,5 @@ git push -u origin master # push repository to the master branch
 ### OR firstly create a branch, and then push the local repository to that branch
 
 git branch -M main        # create branch firstly
+
 git push -u origin main   # push repository to the corresponding remote branch, in this case the main branch
