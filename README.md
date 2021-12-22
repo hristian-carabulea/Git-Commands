@@ -18,9 +18,9 @@ git commit -m "message" # commit all the files in the Staging Area to the Local 
 
 git log # see what commits have been made
 
-git diff filename # see the difference between the file in the Working Area and the corresponding file in the Repository area
+git diff filename # see the difference between the file in the Working Area and the corresponding file in the local Repository area
 
-git checkout filename # roll back to the previous version of the file; overwrites the working area file with the Repository file version
+git checkout filename # roll back to the previous version of the file; overwrites the working area file with the local Repository file version
 
 ### After creating a remote repository on GitHub or somewhere else,
 #### - one firstly adds the remote repository
