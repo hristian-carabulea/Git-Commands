@@ -12,7 +12,7 @@ git add filename # to add each file separately to the Staging Area. OR...
 
 git add . # to add all files to the Staging Area
 
-git rm -cached filename # to remove file from the index completely
+git rm --cached filename # removes file from the Staging Area and from the Local Repository. It will remain only in the Working Area.
 
 git commit -m "message" # commit all the files in the Staging Area to the Local Repository
 
