@@ -42,7 +42,10 @@ git branch b2 # create branch b2
 git checkout b2 # b2 becomes the current active branch
 
 git checkout main
+
 git merge b2 # merges branch b2 into current main branch
+
+## Fork, clone, and fetch vs pull
 
 git fork # create an independent remote repository copy of someone else's remote repository. Must be followed by git clone to get the code into a local repository. On public repositories such as GitHub and Gitlab can click a fork button online.
 
