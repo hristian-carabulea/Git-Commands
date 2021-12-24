@@ -32,3 +32,11 @@ git push -u origin master # push repository to the master branch
 git branch -M main        # create branch firstly
 
 git push -u origin main   # push repository to the corresponding remote branch, in this case the main branch
+
+## Branching
+
+git branch  # shows the current branch with an asterix before the branch name
+
+git branch b2 # create branch b2
+
+git checkout b2 # b2 becomes the current active branch
